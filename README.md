@@ -48,6 +48,6 @@ Libraries
 
 * `com.example.kumu.viewmodel` contains the viewmodels which is the mediator from the view to the business logic.
 
-* `com.example.kumu.view` contains all view clases such as activities, adapters and the like.
+* `com.example.kumu.view` contains View controller classes for activities, adapters and the like.
 
 
