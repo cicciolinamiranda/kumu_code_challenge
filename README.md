@@ -19,8 +19,31 @@ DB
 
 
 Architectural Pattern
-* MVVM
+* Model-View-ViewModel
 
 Libraries
 * Room
 * Retrofit
+
+## Folder Structure
+### Under `src/main`
+* `java` contains Java source codes
+* `res` contains all images, xmls and drawables
+
+### Under `src/main/java`
+
+* `com.example.kumu.data` contains classes that interact or represent the data layer.
+    * `db` - domain data models for the ORM. (i.e. classes that represent the DB tables).
+    * `repository` - classes that abstract the DAO as repositories. These classes represent results as collections of entities. Hence the name 'repository'.
+    * `dto` - data transfer objects that carries data between processes.
+    * `exception` - custom global Exception class that is being use by the app.
+
+* `com.example.kumu.api` contains the classes that will be use for API calls.
+
+* `com.example.kumu.util` contains utility classes for that application (e.g. mapping domain models to resources).
+
+* `com.example.kumu.viewmodel` contains the viewmodels which is the mediator from the view to the business logic.
+
+* `com.example.kumu.view` contains all view clases such as activities, adapters and the like.
+
+
