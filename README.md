@@ -1,6 +1,6 @@
-# Mobiquity Android Assignment
+# Kumu Code Challenge
 
-## Using Kotlin ,MVVM, Dagger-2, RxJava, Retrofit
+## Using Java ,MVVM, Retrofit
 
 ## Example’s Feature:
 * Load data from server Using Retrofit2.
