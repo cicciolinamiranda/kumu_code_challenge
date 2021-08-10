@@ -25,7 +25,7 @@ Why MVVM?
 *  Easy to build up and to maintain. Cleanly separates the user interface from the application logic. 
 
 Libraries
-* Room - The code is simpler with the use of annotations and you don't to create your custom SQL Lite class for your device database. Easier to maintain since the sql query can be declared on its @Query annotation. It will already provide the interface implementation for your DAO methods.
+* Room - The code is simpler with the use of annotations and you don't need to create your custom SQL Lite class for your device database. Easier to maintain since the sql query can be declared on its @Query annotation. It will already provide the interface implementation for your DAO methods.
 
 * Retrofit - Easier to develop and to maintain. It supports http logging, serialization and deserialization of responses and able to provide synchronous and asynchronous calls.
 
